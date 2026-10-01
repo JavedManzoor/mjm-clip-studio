@@ -162,7 +162,7 @@ export default function Blog() {
         <div className="bg-purple-500/10 border border-purple-500/20 rounded-xl p-6 mt-8">
           <h3 className="text-white font-bold mb-2">Ready to grab your clip?</h3>
           <p className="text-gray-400 text-sm mb-4">
-            Paste your YouTube link and save just the part you want — free, in under 30 seconds.
+            Paste your YouTube link and save just the part you want — free, in under 40 seconds.
           </p>
           <Link to="/" className="inline-block bg-purple-600 hover:bg-purple-700 text-white font-medium px-6 py-2.5 rounded-xl transition">
             Try MJM Clip Studio Free →
