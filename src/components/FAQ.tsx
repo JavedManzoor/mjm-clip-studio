@@ -4,11 +4,15 @@ import { ChevronDown } from 'lucide-react';
 const faqs = [
   {
     q: 'How do I save a clip from a YouTube video?',
-    a: 'Paste a YouTube URL into the box on this page, click "Get Video", then drag the start and end sliders to select your clip. Pick your quality and click "Save Clip" — your MP4 will save automatically.',
+    a: 'Paste a YouTube URL into the box on this page, click "Get Video", then drag the start and end sliders to select your clip. Pick your quality and click "Save Clip". Your browser will ask to share the tab — allow it, and the clip will be recorded in real-time and saved as a downloadable file.',
   },
   {
-    q: 'Do I need to save the whole video first?',
-    a: 'No. MJM Clip Studio fetches only the exact clip you selected — not the full video. It trims and encodes your clip on the server and sends you just the part you want.',
+    q: 'How does the clip recording work?',
+    a: 'MJM Clip Studio uses your browser\'s built-in Screen Capture API. When you click "Save Clip", it records the video playback in real-time as it plays through your selected range. The recording is done entirely in your browser — no server processing needed. The result is saved as a WebM video file.',
+  },
+  {
+    q: 'What browsers are supported?',
+    a: 'MJM Clip Studio works best in Google Chrome (version 104+) and Microsoft Edge. These browsers support the Screen Capture API with self-tab capture. Firefox and Safari have limited support for this feature.',
   },
   {
     q: 'Is MJM Clip Studio free to use?',

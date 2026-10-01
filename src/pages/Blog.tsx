@@ -110,10 +110,10 @@ export default function Blog() {
 
         <h2 className="text-xl font-bold text-white mt-8 mb-4">Why MJM Clip Studio is different</h2>
         <p className="text-gray-400 leading-relaxed mb-6">
-          Most tools fetch the full video to their server, then trim it after. MJM Clip Studio uses advanced
-          clip section technology — it fetches only the video fragments that cover your selected time range.
-          That means faster exports, less bandwidth, and no giant temp files. The output is re-encoded to
-          H.264/AAC for universal compatibility.
+          Most tools fetch the full video to their server, then trim it after. MJM Clip Studio works entirely
+          in your browser using the Screen Capture API and MediaRecorder. When you click "Save Clip", it records
+          the video playback in real-time as it plays through your selected range. No server processing, no
+          uploads, no waiting — the clip is recorded and saved directly to your device.
         </p>
 
         <h2 className="text-xl font-bold text-white mt-8 mb-4">Common use cases</h2>
